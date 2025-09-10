@@ -1,7 +1,10 @@
-package L2136;
+package L2163;
 
 public class Test {
     public static void main(String[] args) {
+        long ans = 1L << 60;
+        System.out.println(ans);
+
         System.out.println("Test #1 [3, 1, 2]");
         int[] a = {3, 1, 2};
         Solution solution = new Solution();
